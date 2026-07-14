@@ -1,17 +1,5 @@
-# BA-003-Executive-Operations-Dashboard-Power-BI-
-Interactive executive reporting solution developed in Power BI to provide leadership with operational KPIs, trend analysis, and decision-support dashboards.
+# BA-003 | Executive Operations Dashboard (Power BI)
 
-# Images
+> Business Analytics Portfolio Series
 
-This folder contains screenshots of the Power BI dashboard, data model, DAX measures, and supporting visuals used throughout the Executive Operations Dashboard project.
-
-## Planned Contents
-
-- Executive Dashboard
-- KPI Cards
-- Operational Trends
-- Data Model
-- DAX Measures
-- Power Query
-- Dashboard Navigation
-- Executive Reporting
+Designed and developed an interactive Power BI reporting solution that transformed operational data into executive dashboards supporting leadership decision-making, operational visibility, KPI reporting, and performance monitoring.
