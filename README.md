@@ -6,62 +6,96 @@ Designed and developed an interactive Power BI reporting solution that transform
 
 ---
 
+📊 Project Snapshot
+
+---
+
 # Executive Summary
 
 ...
+
+---
 
 # Operational Environment
 
 ...
 
+---
+
 # Business Problem
 
 ...
+
+---
 
 # Reporting Requirements
 
 ...
 
+---
+
 # KPI Framework
 
 ...
+
+---
 
 # Data Sources
 
 ...
 
+---
+
 # Data Model
 
 ...
+
+---
 
 # Power BI Architecture
 
 ...
 
+---
+
 # DAX Measures
 
 ...
+
+---
 
 # Dashboard Design
 
 ...
 
+---
+
 # Executive Reporting
 
 ...
+
+---
 
 # Business Value
 
 ...
 
+---
+
 # Screenshots
 
 ...
+
+---
 
 # Lessons Learned
 
 ...
 
+---
+
 # Future Enhancements
 
 ...
+
+---
