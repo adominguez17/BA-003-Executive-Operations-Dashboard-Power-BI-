@@ -315,8 +315,6 @@ The dashboard became the executive reporting layer for the Enterprise Records Ma
 
 ## Executive Dashboard
 
-**Figure 1 — Executive Records Performance Dashboard**
-
 The primary executive reporting dashboard providing leadership with real-time visibility into operational performance, document completion, processing trends, and audit readiness across the July 2025 – June 2026 reporting period.
 
 <img width="1408" height="790" alt="image" src="https://github.com/user-attachments/assets/46844ccc-01a6-4649-81f7-3e27f4736898" />
@@ -325,15 +323,7 @@ The primary executive reporting dashboard providing leadership with real-time vi
 
 ## KPI Summary
 
-**Figure 2 — Executive KPI Cards**
-
-Highlights:
-
-- Total Releases
-- Completed Records
-- Hold / Missing Documents
-- Completion Rate
-- Average Monthly Releases
+<img width="1406" height="137" alt="image" src="https://github.com/user-attachments/assets/18f6a8e2-c3ee-41b7-8b7a-07a17c494898" />
 
 ---
 
