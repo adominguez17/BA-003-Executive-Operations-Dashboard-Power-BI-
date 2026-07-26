@@ -315,9 +315,11 @@ The dashboard became the executive reporting layer for the Enterprise Records Ma
 
 ## Executive Dashboard
 
-**Figure 1 — Executive Operations Dashboard**
+**Figure 1 — Executive Records Performance Dashboard**
 
-*Overview of executive KPIs, operational trends, and organizational performance.*
+The primary executive reporting dashboard providing leadership with real-time visibility into operational performance, document completion, processing trends, and audit readiness across the July 2025 – June 2026 reporting period.
+
+<img width="1408" height="790" alt="image" src="https://github.com/user-attachments/assets/46844ccc-01a6-4649-81f7-3e27f4736898" />
 
 ---
 
