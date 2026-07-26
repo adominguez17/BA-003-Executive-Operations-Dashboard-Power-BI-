@@ -215,23 +215,80 @@ The architecture consisted of four primary layers:
 
 This separation allowed business rules and calculations to remain centralized while providing leadership with a consistent reporting experience.
 
+```mermaid
+flowchart TD
+
+A[Enterprise Records Database]
+
+A --> B[Power BI Data Model]
+
+B --> C[DAX Measures]
+
+C --> D[KPI Cards]
+
+C --> E[Operational Trends]
+
+C --> F[Completion Metrics]
+
+C --> G[Executive Dashboard]
+```
+
 ---
 
 # DAX Measures
 
-...
+Business metrics were calculated using DAX measures to ensure KPI values remained consistent throughout the reporting platform.
+
+Key calculations included:
+
+- Total Releases
+- Completed Records
+- Hold / Missing Documents
+- Completion Rate
+- Average Monthly Releases
+
+Centralizing calculations within DAX ensured that every visualization referenced the same business logic, reducing inconsistencies between reports and simplifying future maintenance.
+
+| Measure | Purpose |
+|---------|----------|
+| Total Releases | Counts all detainee releases within the selected reporting period. |
+| Completed Records | Counts records that have been fully completed. |
+| Hold / Missing Documents | Counts records requiring additional documentation. |
+| Completion Rate | Calculates completed records as a percentage of total releases. |
+| Average Monthly Releases | Calculates the average number of releases processed each month. |
 
 ---
 
 # Dashboard Design
 
-...
+The dashboard was designed around executive decision-making principles, presenting the most critical performance indicators at the top of the report while supporting progressively deeper operational analysis further down the page.
+
+The report layout followed a logical hierarchy:
+
+- Executive KPI summary cards
+- Monthly operational performance trends
+- Completion rate analysis
+- Outstanding documentation tracking
+- Historical monthly comparisons
+
+This design allowed leadership to assess overall operational health within seconds while retaining the ability to investigate historical performance trends when necessary.
 
 ---
 
 # Executive Reporting
 
-...
+The Executive Records Performance Dashboard became the primary reporting interface for monitoring records management performance throughout the reporting period.
+
+Leadership could immediately evaluate:
+
+- Overall detainee release volume
+- Operational throughput
+- Records completion performance
+- Missing documentation trends
+- Monthly workload distribution
+- Audit readiness
+
+Rather than manually compiling reports from operational spreadsheets, leadership received consistent, interactive reporting that supported faster decision-making and improved visibility into facility operations.
 
 ---
 
