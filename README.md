@@ -12,8 +12,25 @@ Designed and developed an interactive Power BI reporting solution that transform
 
 # Business Context
 
-...
+Following the successful implementation of the Enterprise Records Management & Compliance System (BA-002), executive leadership required a method of transforming operational records into meaningful performance metrics.
 
+While the records management system successfully tracked document accountability and processing activities, leadership still relied on manually compiling operational reports from Excel workbooks to understand overall facility performance. This process consumed valuable administrative time, limited visibility into emerging operational issues, and made historical trend analysis difficult.
+
+To address these challenges, I designed and developed an Executive Operations Dashboard using Microsoft Power BI. The dashboard served as the executive reporting layer for the records management system, converting detailed operational data into interactive visualizations and key performance indicators (KPIs) that leadership could use to monitor performance and support data-driven decision-making.
+
+The solution provided a centralized view of operational health by measuring records completion, processing volume, missing documentation, monthly performance trends, and overall audit readiness across more than 20,000 detainee release records processed between July 2025 and June 2026.
+
+## Why This Solution Was Needed
+
+Executive leadership needed the ability to:
+
+- Monitor records processing performance without manually compiling reports.
+- Measure document completion rates across the reporting period.
+- Identify operational bottlenecks and outstanding documentation.
+- Track historical processing trends over time.
+- Evaluate audit readiness using objective performance metrics.
+- Make operational decisions using a centralized reporting platform.
+  
 ---
 
 # Executive Summary
