@@ -381,17 +381,39 @@ Power BI dataset consisting of operational fact tables and a shared date dimensi
 
 ---
 
-## Measures
+## DAX Measures
 
-<img width="298" height="212" alt="image" src="https://github.com/user-attachments/assets/b829ce85-740c-43d5-b988-1f3709f3df6a" />
+Business metrics were calculated using DAX to ensure consistent KPI calculations throughout the reporting platform.
+
+<img width="387" height="42" alt="image" src="https://github.com/user-attachments/assets/54d3b195-7860-4ce2-81a0-eaba18aed373" />
+
+<img width="212" height="111" alt="image" src="https://github.com/user-attachments/assets/e9d08954-540f-4d60-bbf8-1e5b64ad215c" />
+
+<img width="361" height="42" alt="image" src="https://github.com/user-attachments/assets/2fdbfe53-c85e-4ca1-9529-42df878a6d64" />
+
+<img width="312" height="218" alt="image" src="https://github.com/user-attachments/assets/e5241571-c288-4ee0-98c6-31f6253ce416" />
 
 ---
 
-## Dashboard Design
+## DAX Measures
 
 **Figure 7 — Dashboard Layout**
 
-Shows the hierarchical layout used to present KPIs, trend analysis, and operational summaries.
+```mermaid
+flowchart LR
+
+A[Enterprise Records Database]
+
+A --> B[Power BI Dataset]
+
+B --> C[Data Model]
+
+C --> D[DAX Measures]
+
+D --> E[Executive Dashboard]
+
+E --> F[Leadership Decisions]
+```
 
 ---
 
