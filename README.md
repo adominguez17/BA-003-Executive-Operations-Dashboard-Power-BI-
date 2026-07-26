@@ -367,9 +367,36 @@ Leadership used this visualization to quickly identify reporting periods requiri
 
 <img width="1265" height="772" alt="image" src="https://github.com/user-attachments/assets/a233421a-ad98-4632-8878-0115b2b569be" />
 
-Dimensional data model supporting executive reporting.
+The Executive Operations Dashboard was designed using a dimensional data model that separated operational records from aggregated reporting metrics.
 
-The model separates operational records from summarized KPI reporting while using a shared calendar dimension for historical analysis.
+The model consisted of:
+
+- **Fact_RLSRecords** — Detailed detainee records and document tracking.
+- **Fact_RecordsDaily** — Daily operational summary metrics used for executive reporting.
+- **Dim_Date** — Shared calendar dimension enabling historical trend analysis and time intelligence.
+- **Measures** — Centralized DAX calculations used throughout the reporting solution.
+
+This architecture improved report performance, simplified KPI calculations, and ensured consistent business logic across all dashboard visuals.
+
+```mermaid
+flowchart LR
+
+A[Enterprise Records Database] --> B[Power BI Data Model]
+
+B --> C[Fact_RLSRecords]
+
+B --> D[Fact_RecordsDaily]
+
+B --> E[Dim_Date]
+
+C --> F[DAX Measures]
+D --> F
+E --> F
+
+F --> G[Executive Dashboard]
+
+G --> H[Leadership Decisions]
+```
 
 ---
 
