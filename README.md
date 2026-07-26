@@ -86,13 +86,51 @@ Without a centralized dashboard, operational reporting remained reactive rather 
 
 # Reporting Requirements
 
-...
+The Executive Records Performance Dashboard was designed to replace manually compiled daily reports with an interactive business intelligence solution that provided executive leadership with immediate visibility into operational performance.
+
+The reporting platform needed to satisfy several business requirements:
+
+- Provide a single source of truth for executive operational reporting.
+- Display real-time records processing performance.
+- Measure document completion rates across the reporting period.
+- Monitor outstanding or missing documentation.
+- Track monthly operational workload and release volume.
+- Identify trends affecting operational efficiency.
+- Support audit readiness through measurable performance indicators.
+- Reduce manual report preparation by automating KPI calculations.
+- Present information in a format easily understood by executive leadership.
+
+The dashboard emphasized simplicity and usability, allowing leadership to evaluate operational performance within minutes rather than relying on manually compiled spreadsheet reports.
 
 ---
 
 # KPI Framework
 
-...
+The dashboard was designed around executive-level Key Performance Indicators (KPIs) that measured both operational productivity and records management performance.
+
+| KPI | Business Purpose |
+|------|------------------|
+| Total Releases | Measures total detainee releases processed during the reporting period. |
+| Completed Records | Tracks records that have been fully reviewed and finalized. |
+| Hold / Missing Documents | Identifies records requiring additional documentation or corrective action. |
+| Completion Rate | Measures the percentage of completed records relative to total releases. |
+| Average Monthly Releases | Provides leadership with average operational workload across the reporting period. |
+| Monthly Operational Performance | Visualizes processing volume and completion trends over time. |
+| Monthly Missing Documentation | Highlights periods requiring additional operational focus or staffing support. |
+
+These KPIs allowed executive leadership to monitor overall operational health while identifying performance trends that could impact compliance, audit readiness, and resource planning.
+
+## Executive Questions Answered
+
+The dashboard was designed to help leadership answer critical operational questions, including:
+
+- How many detainee releases have been processed?
+- What percentage of records have been completed?
+- How many records are currently missing required documentation?
+- Which months experienced the highest operational workload?
+- Are document completion rates improving over time?
+- Which reporting periods require additional operational attention?
+- Is the organization maintaining audit readiness?
 
 ---
 
