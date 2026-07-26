@@ -365,13 +365,11 @@ Leadership used this visualization to quickly identify reporting periods requiri
 
 ## Power BI Data Model
 
-**Figure 5 — Data Model**
+<img width="1265" height="772" alt="image" src="https://github.com/user-attachments/assets/a233421a-ad98-4632-8878-0115b2b569be" />
 
-Relationship diagram illustrating the dimensional model consisting of:
+Dimensional data model supporting executive reporting.
 
-- Fact_RLSRecords
-- Fact_RecordsDaily
-- Dim_Date
+The model separates operational records from summarized KPI reporting while using a shared calendar dimension for historical analysis.
 
 ---
 
