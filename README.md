@@ -373,11 +373,17 @@ The model separates operational records from summarized KPI reporting while usin
 
 ---
 
-## Fields & Measures
+## Dataset Structure
 
-**Figure 6 — Dataset Structure**
+<img width="181" height="228" alt="image" src="https://github.com/user-attachments/assets/cc675451-5c69-464d-b72b-70cb137e0b98" />
 
-Illustrates the operational datasets, calculated measures, and reporting fields supporting executive KPIs.
+Power BI dataset consisting of operational fact tables and a shared date dimension supporting KPI calculations and interactive reporting.
+
+---
+
+## Measures
+
+<img width="298" height="212" alt="image" src="https://github.com/user-attachments/assets/b829ce85-740c-43d5-b988-1f3709f3df6a" />
 
 ---
 
