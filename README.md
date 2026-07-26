@@ -345,7 +345,7 @@ These KPIs provide leadership with an immediate operational health assessment.
 
 ## Monthly Operational Performance
 
-<img width="457" height="558" alt="image" src="https://github.com/user-attachments/assets/164a0f12-7151-4d34-b8f7-9522f89533af" />
+<img width="947" height="557" alt="image" src="https://github.com/user-attachments/assets/57c9134f-d768-49ed-b1fe-24e0a64d6aa5" />
 
 Monthly trend analysis displaying detainee release volume alongside records completion percentage.
 
@@ -355,9 +355,11 @@ This visualization allows leadership to quickly identify changes in workload whi
 
 ## Missing Documentation
 
-**Figure 4 — Hold / Missing Documents**
+<img width="462" height="555" alt="image" src="https://github.com/user-attachments/assets/faa1f95a-997b-4a30-a0fc-d71c011f2c29" />
 
-Executive monitoring of outstanding documentation requiring operational attention.
+Tracks outstanding documentation requiring operational attention.
+
+Leadership used this visualization to quickly identify reporting periods requiring corrective action.
 
 ---
 
