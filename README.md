@@ -294,24 +294,121 @@ Rather than manually compiling reports from operational spreadsheets, leadership
 
 # Business Value
 
-...
+The Executive Records Performance Dashboard transformed operational records into actionable business intelligence, enabling executive leadership to monitor facility performance through a centralized reporting platform rather than manually compiled spreadsheets.
+
+Key business outcomes included:
+
+- Centralized executive reporting for records management operations.
+- Eliminated repetitive manual KPI reporting.
+- Improved visibility into operational performance and document accountability.
+- Enabled leadership to identify missing documentation trends before they became audit risks.
+- Standardized performance metrics across the entire reporting period.
+- Provided historical trend analysis supporting operational planning.
+- Reduced administrative effort required to prepare executive reports.
+- Improved confidence in organizational reporting through consistent business logic.
+
+The dashboard became the executive reporting layer for the Enterprise Records Management & Compliance System, providing leadership with a reliable source of operational intelligence throughout the reporting period.
 
 ---
 
 # Screenshots
 
-...
+## Executive Dashboard
+
+**Figure 1 — Executive Operations Dashboard**
+
+*Overview of executive KPIs, operational trends, and organizational performance.*
+
+---
+
+## KPI Summary
+
+**Figure 2 — Executive KPI Cards**
+
+Highlights:
+
+- Total Releases
+- Completed Records
+- Hold / Missing Documents
+- Completion Rate
+- Average Monthly Releases
+
+---
+
+## Operational Performance
+
+**Figure 3 — Monthly Operational Performance**
+
+Visualization of operational throughput and completion rates across the reporting period.
+
+---
+
+## Missing Documentation
+
+**Figure 4 — Hold / Missing Documents**
+
+Executive monitoring of outstanding documentation requiring operational attention.
+
+---
+
+## Power BI Data Model
+
+**Figure 5 — Data Model**
+
+Relationship diagram illustrating the dimensional model consisting of:
+
+- Fact_RLSRecords
+- Fact_RecordsDaily
+- Dim_Date
+
+---
+
+## Fields & Measures
+
+**Figure 6 — Dataset Structure**
+
+Illustrates the operational datasets, calculated measures, and reporting fields supporting executive KPIs.
+
+---
+
+## Dashboard Design
+
+**Figure 7 — Dashboard Layout**
+
+Shows the hierarchical layout used to present KPIs, trend analysis, and operational summaries.
 
 ---
 
 # Lessons Learned
 
-...
+This project reinforced that successful business intelligence begins with well-structured operational data rather than dashboard design alone.
+
+Key lessons included:
+
+- Executive dashboards are only as reliable as the underlying operational processes.
+- Well-designed KPIs simplify executive decision-making.
+- Consistent business definitions are essential for trustworthy reporting.
+- A simple data model often outperforms an unnecessarily complex one.
+- Visual hierarchy is critical for communicating information quickly.
+- Separating operational data from presentation logic improves long-term maintainability.
+
+Developing this solution strengthened my understanding of data modeling, KPI development, executive reporting, and business intelligence architecture while demonstrating how operational data can be transformed into strategic decision-support tools.
 
 ---
 
 # Future Enhancements
 
-...
+If I were expanding this solution today, I would focus on increasing automation, scalability, and real-time reporting capabilities.
+
+Potential enhancements include:
+
+- Replace Excel source files with SQL Server or Microsoft Dataverse.
+- Implement scheduled Power BI Service data refreshes.
+- Introduce row-level security (RLS) for role-based dashboard access.
+- Develop department-specific dashboards using shared semantic models.
+- Expand KPI reporting to include predictive workload forecasting.
+- Integrate Power Automate to automate report distribution and operational alerts.
+- Publish dashboards through Power BI Service to support secure web-based access.
+- Build drill-through pages enabling leadership to investigate individual operational records directly from summary metrics.
 
 ---
