@@ -325,13 +325,31 @@ The primary executive reporting dashboard providing leadership with real-time vi
 
 <img width="1406" height="137" alt="image" src="https://github.com/user-attachments/assets/18f6a8e2-c3ee-41b7-8b7a-07a17c494898" />
 
+Executive KPI cards summarizing operational performance.
+
+Metrics include:
+
+• Total Releases
+
+• Completed Records
+
+• Missing Documentation
+
+• Completion Rate
+
+• Average Monthly Releases
+
+These KPIs provide leadership with an immediate operational health assessment.
+
 ---
 
-## Operational Performance
+## Monthly Operational Performance
 
-**Figure 3 — Monthly Operational Performance**
+<img width="457" height="558" alt="image" src="https://github.com/user-attachments/assets/164a0f12-7151-4d34-b8f7-9522f89533af" />
 
-Visualization of operational throughput and completion rates across the reporting period.
+Monthly trend analysis displaying detainee release volume alongside records completion percentage.
+
+This visualization allows leadership to quickly identify changes in workload while monitoring operational quality over time.
 
 ---
 
