@@ -170,13 +170,50 @@ The underlying Excel database contained more than 20,000 detainee record transac
 
 # Data Model
 
-...
+The Executive Records Performance Dashboard was built using a simplified dimensional data model designed for efficient reporting, scalable analytics, and straightforward maintenance.
+
+The model consisted of three primary tables:
+
+| Table | Purpose |
+|--------|---------|
+| **Fact_RLSRecords** | Primary fact table containing detailed detainee release records and document completion status. |
+| **Fact_RecordsDaily** | Daily operational summary table used for KPI calculations and historical trend reporting. |
+| **Dim_Date** | Calendar dimension supporting time intelligence, monthly trend analysis, and reporting period calculations. |
+
+The dimensional model separated detailed operational data from summarized reporting metrics, allowing Power BI to efficiently calculate KPIs while supporting interactive filtering across the reporting period.
+
+```mermaid
+flowchart LR
+
+A[Fact_RLSRecords]
+B[Fact_RecordsDaily]
+C[Dim_Date]
+
+C --> A
+C --> B
+
+A --> D[Power BI Data Model]
+B --> D
+
+D --> E[Executive Dashboard]
+```
 
 ---
 
 # Power BI Architecture
 
-...
+The reporting platform followed a structured Business Intelligence architecture designed to transform operational records into executive reporting.
+
+Operational data originated within the Enterprise Records Management & Compliance System before being imported into Power BI for modeling, KPI calculations, and visualization.
+
+The architecture consisted of four primary layers:
+
+1. Operational Records Database
+2. Power BI Data Model
+3. DAX Business Logic
+4. Executive Dashboard
+
+This separation allowed business rules and calculations to remain centralized while providing leadership with a consistent reporting experience.
 
 ---
 
